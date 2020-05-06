@@ -1,0 +1,30 @@
+<!-- Search Bar -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-  
+        scale=1">
+        
+        <link rel="stylesheet" href="/static/index.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    </head>
+    <body>
+        
+        <h1><center> bot detection</center></h1>
+        <form class="example" method="post" action="" 
+         style="margin:auto;max-width:600px">
+            <input type="text" placeholder="Search by account" name="account">
+            <button type="submit"><i class="fa fa-search"></i>
+            </button>
+        </form>
+        <p></p>
+        <center>
+        {% for item in data %}
+            <tr>
+                <td> {{item[0]}} by {{item[1]}}. 0 means human, 1 means bot.</td>
+                </br>
+            </tr>
+        {% endfor %}
+        </center>
+    </body>
+</html>
