@@ -1,0 +1,31 @@
+Dataset Used:
+Original data (dicex_data.csv): data.zip(https://drive.google.com/open?id=1Y7P_MAfRVu4bdnnYcBzxM0mkiQnZd56u)
+  #it's the data we use in Anchain-data cleaning.ipynb.
+  #If we want to run Anchain-data cleaning.ipynb, we need to upload this dataset.
+
+After adding features:
+Whole dataset: dicex_cleaned.csv(https://drive.google.com/open?id=1Z_2yRPt-eXzJ9BRYR-U7Z-OZ3H8otTZr)
+
+dicex_cleaned_om1_label: we got this dataset after exacting features from raw data. This dataset also contains manually labeled 407 accounts.
+  (https://drive.google.com/open?id=1i15xbxst3dlHTejaBaDhsmIzmU_YbYpA)
+  #it's the data we use in Anchain Modeling.ipynb.
+  #If we want to run Anchain Modeling.ipynb, we need to upload this dataset.
+
+dicex_cleaned_om1_label: the dataset contains another manually labeled accounts information.
+https://drive.google.com/open?id=1pf7tCTQBKKjY_Fm-SEwvmJ8olpbmznWW
+  #it's the data we use in Anchain Modeling.ipynb.
+  #If we want to run Anchain Modeling.ipynb, we need to upload this dataset.
+
+/*dataset is not uploaded to github repo, which has to be domwnloaded by google drive link*/
+/*other code files are attached to this repo*/
+
+Data cleaning with classified account: 
+Anchain-data cleaning.ipynb
+
+Applied model to the larger dataset:Anchain Modeling.ipynb
+
+web application:
+see web-app folder in this repo
+
+Website: 
+anchain-ai.weebly.com
